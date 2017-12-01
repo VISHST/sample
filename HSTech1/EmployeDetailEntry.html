@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HS Technologies</title>
+</head>
+<body>
+<center>
+		<img alt="HSttechnologies" src="E:\\sk\\HSTech2.jpg"><br>
+		<hr>
+	<form action="EmployeDetailEntry.jsp" method="post">
+
+		<h1>Employee Details</h1>
+		<div align="center">
+			First Name <input type="text" name="FirstName"> <br>
+			Middle Name <input type="text" name="MiddleName"> <br>
+			Last Name <input type="text" name="LastName"> <br>
+			ContactNum1 <input type="number" name="ContactNum1"> <br>
+			ContactNum2 <input type="number" name="ContactNum2"> <br>
+			MailAddress <input type="email" name="MailAddress"> <br>
+			VisaType   <select required name="VisaType">
+				<option value="OPT">OPT</option>
+				<option value="H1B">H1B</option>
+				<option value="GREENCARD">GREENCARD</option>
+				<option value="USCitizen">US Citizen</option>
+			</select> <br>
+			VisaDocument <input type="file" name="VisaDocument"
+				value="Enter visa document path" style="width: 366px;"> <br>
+			ID Proof Document <input type="file" name="IDProofDocument"
+				value="Enter Id document path" style="width: 366px;"> <br>
+			Resume <input type="file" name="Resume"
+				value="Enter resume document path" style="width: 366px;"> <br>
+			Comments<br>
+			<textarea rows="5" cols="50" name="Comments"></textarea>
+			<br> <input  type="Submit" value="Submit">
+
+		</div>
+	</form><hr>
+	<nav> <a href="EmployeDetailFind.html"> <element>Employee
+		Dteails Find</element></a> | <a href="EmployeDetailEntry.html">Employee Dteails
+		Entry</a> | <a href="EmployeDetailDownload.html">EmployeDetailDownload
+	</a> <a href="EmployeAttachmentUpdate.html">EmployeDetailDownload
+	</a></nav>
+</html>
